@@ -30,7 +30,7 @@
         </ul>
         <a href="#" class="logo"><span>K</span>roider</a>
         <ul class="navbar">
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="project.html">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
@@ -44,14 +44,14 @@
         <p>A passionate wanna be software engineer from India.</p>
     </div>
     <div class="img">
-        <img src="Subject.png" alt="">
+        <img src="assets/Subject.png" alt="">
     </div>
 
 </section>
 
 <section class="about" id="about">
     <div class="about-img">
-        <img src="Subject 2.png" alt="">
+        <img src="assets/Subject 2.png" alt="">
     </div>
 
     <div class="about-text">
@@ -136,8 +136,22 @@
             <input type="Submit" name="" value="Send Messege" class="send-btn">
         </form>
         <div class="social">
-            <a href=""><i class="ri-discord-fill"></i></a>
-            <a href=""><i class="ri-github-fill"></i></a>
+            <a id="copyButton"><i class="ri-discord-fill"></i></a>
+            <script> document.addEventListener('DOMContentLoaded', function () {
+              const copyButton = document.getElementById('copyButton');
+  
+              copyButton.addEventListener('click', function () {
+                  const username = '.kroider'; // Replace with your actual Discord username
+                  const tempInput = document.createElement('input');
+                  tempInput.value = username;
+                  document.body.appendChild(tempInput);
+                  tempInput.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(tempInput);
+                  alert('Username copied to clipboard: ' + username);
+              });
+          });</script>
+            <a href="https://github.com/shadowmonarx"><i class="ri-github-fill"></i></a>
         </div>  
     </div>
     </section> 

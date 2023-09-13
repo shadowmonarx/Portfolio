@@ -279,7 +279,7 @@ header.sticky{
     margin: 58px 305px;
     align-items: center;
     justify-content: center;
-    margin-top: 4.2rem;
+    margin-top: 0px;
     z-index: 1000;
 }
 
@@ -318,6 +318,7 @@ form .send-btn{
     font-weight: 600;
     transition: all .5s ease;
     width: 30%;
+    margin: 0px 11vw;
 }
 
 form .send-btn:hover{

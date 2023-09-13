@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;   
+}
+.particles-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1000; /* Place the particles above the image */
+    background-color: #000; /* Background color behind particles */
+  }
+
+  .particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none; /* Prevent particles from blocking mouse events */
+  }
+  body{
+    color: #fff;
+    background-color: #22282f;
+
+}
+.logo{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+span{
+    color: #C70039;
+}
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 30vw;
+    background: transparent;
+    transition: all .50s ease;
+    z-index: 1001;
+}
+header.sticky{
+    background: #1b1f24;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    padding: 16px 16%;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&family=Inter:wght@300;400;500;600;700;900&family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body >
+ <div id="particles-js"></div>
+ <div class="container">
+    <header>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#" class="logo"><span>K</span>roider</a>
+        <ul class="navbar">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+
+<section class="hero" >
+    <div class="main-content" >
+        <h4>Hello There,</h4>
+        <h1>I am <span>Kroider</span></h1>
+        <p>A passionate wanna be software engineer from India.</p>
+    </div>
+    <div class="img">
+        <img src="Subject.png" alt="">
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="Subject 2.png" alt="">
+    </div>
+
+    <div class="about-text">
+        <h2>I am a <a href="" class="typewrite" data-period="2000" data-type='[ " Full Stack Web Developer", "Data Science Student", "FrontEndWebDev Intern at Addverb","Part-Time Batman"]'>
+            <span class="wrap"></span>
+          </a>
+          </h2>
+          <script> var TxtType = function(el, toRotate, period) {
+            this.toRotate = JSON.parse(toRotate);
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+          };
+          
+          TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+          
+            if (this.isDeleting) {
+              this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+              this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+          
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '<span class="cursor">|</span></span>';
+          
+            var that = this;
+            var delta = 100; // Adjust the typing speed here
+          
+            if (this.isDeleting) {
+              delta /= 2;
+            }
+          
+            if (!this.isDeleting && this.txt === fullTxt) {
+              delta = this.period;
+              this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+              this.isDeleting = false;
+              this.loopNum++;
+              delta = 500; // Time to wait after finishing typing
+            }
+          
+            setTimeout(function() {
+              that.tick();
+            }, delta);
+          };
+          
+          window.addEventListener("load", function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+              var toRotate = elements[i].getAttribute('data-type');
+              var period = elements[i].getAttribute('data-period');
+              if (toRotate) {
+                new TxtType(elements[i], toRotate, period);
+              }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff }";
+            document.body.appendChild(css);
+          });
+          </script>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="center-text">
+        <h2>Contact <Span>Me</Span></h2>
+    </div>
+
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Your Name" tabindex="1" required>
+            <input type="email" placeholder="Email Address..
+            " required tabindex="2">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write Messege Here..." required></textarea>
+            <input type="Submit" name="" value="Send Messege" class="send-btn">
+        </form>
+        <div class="social">
+            <a href=""><i class="ri-discord-fill"></i></a>
+            <a href=""><i class="ri-github-fill"></i></a>
+        </div>  
+    </div>
+    </section> 
+ </div>
+
+
+ 
+       
+<script src="script.js"></script>
+
+</body>
+
+</html>

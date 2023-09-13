@@ -242,7 +242,7 @@ header.sticky{
 }
 
 .about-text h2 {
-    font-size: 2.9rem;
+    font-size: 35px;
     line-height: 1.3;
     margin-bottom: 20px;
     margin-top: 14vw;
@@ -276,7 +276,7 @@ header.sticky{
   
 .contact-form{
     position: relative;
-    margin: 58px 305px;
+    margin: 58px 180px;
     align-items: center;
     justify-content: center;
     margin-top: 0px;
@@ -318,7 +318,7 @@ form .send-btn{
     font-weight: 600;
     transition: all .5s ease;
     width: 30%;
-    margin: 0px 11vw;
+    margin: 0px 14vw;
 }
 
 form .send-btn:hover{

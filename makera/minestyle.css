@@ -1,0 +1,19 @@
+* {
+    margin: 0%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+body {
+    background-color: rgb(251, 250, 231);
+}
+
+.contmine {
+    max-width: 1400px;
+    margin: 150px auto;
+    display: flex;
+}
+
+.mineimage img {
+    width: 32%;
+}
+

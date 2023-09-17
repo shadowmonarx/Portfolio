@@ -1,0 +1,439 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    
+}
+nav{
+    background-color: rgb(247, 216, 104);
+    position: sticky;
+    top: 0;
+   
+}
+.containernavbar{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 150px 20px 150px;
+    align-items: center;
+    z-index: 100000;
+}
+.rightnav li{
+    list-style: none;
+    margin-left: 35px;    
+}
+.rightnav{
+    display: flex;
+   
+}
+.rightnav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: -1px;
+}
+.sectionhero{
+    background-color: rgb(247, 216, 104);
+    padding-bottom: 6rem;
+
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 0px 150px;
+}
+.label{
+    background-color: rgb(42, 41, 69);
+    color: white;
+    display: inline-block;
+    padding: 5px 3px 2px 3px;
+}
+
+.h1msg{
+    font-size: 6.221rem;
+    line-height: -5em;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(42, 41, 69);
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-right: 200px;
+}
+.subcontainer{
+    padding: 20px 64px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(42, 41, 69);
+    font-size: 1.618rem;
+    line-height: 1.5em;
+letter-spacing: -0.05em;
+display: flex;
+}
+.subtitle{
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.iconscontainer{
+    display: flex;
+    padding:30px 150px 20px 168px;
+}
+.rightnav :hover{
+color: rgb(80, 163, 224);
+}
+.elem{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(42, 41, 69);
+    font-size: 0.89rem;
+    padding: 0px 100px 15px 0px;
+}
+.titleprop{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(80, 163, 224);
+    font-size: larger;
+    letter-spacing: 0.05em;
+    padding: 0px 0px 15px 0px;
+}
+.icoprop{
+    padding-bottom: 30px;
+}
+.butt{
+    padding: 8px 10px;
+    color: white;
+    background: rgb(80, 163, 224);
+    border: 2px rgb(80, 163, 224);
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+.indicons button:hover{
+    background-color: rebeccapurple;
+    border-color: #515064;
+    
+}
+.section1{
+    padding:150px 300px 80px 150px;
+}
+.content1{
+    padding-left: 5rem;
+}
+.properties{
+    display: flex;
+  list-style: none;
+}
+.subtitle1{
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.titleprop1{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(80, 163, 224);
+    font-size: larger;
+    letter-spacing: 0.05em;
+    padding: 0px 0px 15px 0px;
+}
+.icoprop1{
+padding-right: 5rem;
+}
+.properties{
+    width: 50rem;
+}
+.properties2{
+    display: flex;
+    padding: 30px 10px 65px 300px;
+    
+}
+.seccontainer1{
+display: flex;
+padding-bottom: 5rem;
+}
+.section2{
+    background-color: #bce3f5;
+}
+.sectiontitle2{
+    padding:30px 150px 20px 150px;
+}
+.label2{
+    background-color: rgb(42, 41, 69);
+    color: white;
+    display: inline-block;
+    padding: 5px 3px 2px 3px;
+    text-transform: uppercase;
+}
+.h3msg{
+    font-size: 4.221rem;
+    line-height: -5em;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(42, 41, 69);
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-right: 200px;
+} 
+.subtitle2{
+    font-size: 25px;
+}
+.icoprop2{
+    padding: 0px 100px 0px 10px;
+    list-style: none;
+    justify-content: center;
+}
+.titleprop2{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(80, 163, 224);
+    justify-content: center;
+    letter-spacing: 0.05em;
+    padding: 15px 0px 15px 0px;
+    text-transform: uppercase;
+}
+.propertytitle{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(80, 163, 224);
+    justify-content: center;
+    letter-spacing: 0.05em;
+   padding-right: 2rem;
+   width: 14rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+.propertyitem p{
+width: 14rem;
+}
+
+.properties3{
+    display: flex;
+    padding-right: 15rem;
+}
+
+.label3{
+    background-color: rgb(42, 41, 69);
+    color: white;
+    display: inline-block;
+    padding: 5px 3px 2px 3px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 4.221rem;
+    line-height: -5em;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(42, 41, 69);
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-right: 200px;
+}
+.sublogo3{
+    margin-top: 5rem;
+    padding-left: 10rem;
+}
+
+.content3{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+
+.items{
+    padding: 2rem;
+}    
+.properties1{
+    display: flex;
+}
+.properties1 p{
+    font-size: 1rem;
+    width: 11rem;
+    font-weight: bolder;
+}
+.container3{
+    display: flex;
+}
+.subtitle3{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 15rem;
+}
+.propertyitem22 p{
+    width: 14rem;
+    padding-left: 26rem;
+    padding-bottom: 5rem;
+    }
+    .propertytitle22{
+        font-family: 'Comfortaa', cursive;
+    color: rgb(80, 163, 224);
+    justify-content: center;
+    letter-spacing: 0.05em;
+   padding-right: 10rem;
+   width: 14rem;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 26rem;
+    }
+.sectionheader{
+    padding-bottom: 3rem;
+}
+.yellowvala{
+    background-color: rgb(247, 216, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ycontainer{
+    display: inline-block;
+    margin-left: 2rem;
+    padding-bottom: 4rem;
+}
+.ycontainer img{
+   padding-top: 4rem;
+    padding-left: 19rem;
+    padding-bottom: 2rem;
+}
+h3{
+    padding-left: 14.78rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(42, 41, 69);
+}
+.ycontainer p{
+    padding-bottom: 1rem;
+    color: rgb(42, 41, 69);
+} 
+.blackbutt{
+    color: white;
+    background-color: #2d2c4c;
+    padding: 0.8rem;
+    font-size: 12px;
+    margin-left: 8rem;
+    border: 0.2rem solid #2d2c4c;
+    border-radius: 5px;
+text-transform: uppercase;
+cursor: pointer;
+transition: opacity 0.2s ease 0s;
+}
+.ycontainer button:hover{
+    background-color: rebeccapurple;
+    border-color: #515064;
+    
+}
+.blackbuttcont{
+    padding-left: 8rem;
+}
+.lacontainer{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+.lacontent{
+    padding-left: 4rem;
+}
+.laheader{
+    padding-bottom: 4rem;
+}
+.lalabel{
+    background-color: rgb(42, 41, 69);
+    color: white;
+    display: inline-block;
+    padding: 5px 3px 2px 3px;
+    text-transform: uppercase;
+}
+.lasubtitle{
+    padding-top: 0.5rem;
+    font-size: 25px;
+}
+.labutton{
+    color: white;
+    background-color: rgb(80, 163, 224);
+    padding: 0.8rem;
+    font-size: 12px;
+    
+    border: 0.2rem solid rgb(80, 163, 224);
+    border-radius: 5px;
+text-transform: uppercase;
+cursor: pointer;
+
+transition-duration: 10ms;
+}
+.lacontent button:hover{
+    background-color: rebeccapurple;
+    border-color: #515064;
+    
+}
+.footersection{
+background-color: rgb(42, 41, 69);
+}
+.footercontainer{
+    display: flex;
+    padding: 4rem 0rem 4rem 15rem;
+}
+.footercontent2{
+padding-right: 8rem;
+}
+.footercontent2 a{
+    text-decoration: none;
+    color: rgb(247, 216, 104);
+    font-size: small;
+}
+.foottex :hover{
+    color: rgb(80, 163, 224);
+}
+.foottex{
+    padding-bottom: 1rem;
+}
+.footercontent3 a{
+    text-decoration: none;
+    color: rgb(247, 216, 104);
+    font-size: small;
+}
+.mailfooter{
+    padding-bottom: 1rem;
+}
+.telfooter{
+    padding-bottom: 10px;
+}
+.mailfooter :hover{
+    color: rgb(80, 163, 224);
+}
+.telfooter :hover{
+    color: rgb(80, 163, 224);
+}
+.footer3{
+    padding-right: 5rem;
+}
+.footer4{
+    padding-right: 10rem;
+}
+.footertext{
+    color: white;
+    font-size: small;
+    letter-spacing: 1.05px;
+}
+.footercontent5{
+    margin-top: 0px;
+}
+.footertitle h3{
+    color: rgb(80, 163, 224);
+}
+.footertitle{
+    margin-left: -14rem;
+}
+.footerlinks{
+    color: white;
+    width: 20rem;
+    font-size: small;
+    padding-bottom: 1rem;
+}
+.foterlinks img{
+    height: 3rem;
+    width: 4rem;
+}
